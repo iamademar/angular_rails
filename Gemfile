@@ -45,3 +45,5 @@ end
 gem 'bower-rails'
 gem 'angular-rails-templates'
 gem 'responders', '~> 2.0'
+
+gem "rails_12factor", group: :production
