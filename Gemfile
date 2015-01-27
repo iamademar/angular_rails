@@ -46,5 +46,7 @@ gem 'bower-rails'
 gem 'angular-rails-templates'
 gem 'responders', '~> 2.0'
 
-gem "rails_12factor", group: :production
-gem "pg", group: :production
+group :production do
+  gem "rails_12factor"
+  gem "pg"
+end
